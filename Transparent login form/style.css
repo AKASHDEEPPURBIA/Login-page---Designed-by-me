@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('./Bg12.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 7px solid rebeccapurple; */
+    width: 25%;
+    height: 58%;
+    position: absolute;
+    top: 35%;
+    left: 60%;   
+}
+.container h2{
+    color: palevioletred;
+    text-align: center;
+    /* border-bottom: 3px solid palevioletred; */
+}
+.container .box{
+    margin: 15px 10px;
+    /* text-align: center; */
+    background: none;
+    outline: none;
+    border-bottom: 1px solid palevioletred;
+}
+.box input{
+    width: 189px;
+    height: 22px;
+    /* text-align: center; */
+    margin-left: 12px;
+    background: none;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+}
+.container .check-box{
+    color: palevioletred;
+    position: absolute;
+    left: 10px;
+}
+.container .check-box input:hover{
+    cursor: pointer;
+}
+.container #forgotpassword a{
+    text-decoration: none;
+    position: absolute;
+    left: 196px;
+    color: palevioletred;
+}
+.btn {
+    left: 28%;
+    position: absolute;
+    width: 133px;
+    height: 32px;
+    border-radius: 28px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    color: whitesmoke;
+    margin: 48px 0px;
+}
+.btn:hover{
+    color: palevioletred;
+}
+i{
+    color: palevioletred;
+    text-align: center;
+}
+.container #createaccount{
+    text-decoration: none;
+    color: gainsboro;
+    position: absolute;
+    top: 241px;
+    left: 43px;
+}
+.container #createaccount a{
+    text-decoration: none;
+    position: absolute;
+    left: 55px;
+    color: aquamarine;
+
+}
+.container #createaccount a:hover{
+    color: palevioletred;
+}
